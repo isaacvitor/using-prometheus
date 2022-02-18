@@ -4,6 +4,8 @@ from random import randint
 
 from aiohttp import web
 
+import prometheus_metrics
+
 port = None
 count = 1
 region = 'td-us-1'

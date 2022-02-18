@@ -31,3 +31,7 @@ Finally:
 ```
 docker run -d --name my_load_balancer -v $PWD/nginx.conf:/etc/nginx/nginx.conf:ro -p 8088:80 nginx
 ```
+
+##Install Prometheus Client:
+
+Follow the instructions: https://github.com/prometheus/client_python
